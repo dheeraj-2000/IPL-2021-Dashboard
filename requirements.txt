@@ -6,3 +6,4 @@ sodapy==2.1.0
 streamlit==0.65.2
 plotly==4.7.1
 lxml==4.5.2
+beautifulsoup4==4.9.3
