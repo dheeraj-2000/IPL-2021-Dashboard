@@ -32,11 +32,56 @@ df_points_table = df_list_points_table[-1]
 # df = pd.DataFrame(df)
 
 
-st.markdown("<h1 style='text-align: center; color: #9C021B;'><strong>🏏 <u>IPL 2021 Dashboard</u> 🏏</strong></h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #9C021B;'><strong>🏏 <u>IPL 2021</u> 🏏</strong></h1>", unsafe_allow_html=True)
 st.markdown("_________________________________________________________________________________")
 # st.markdown("<h4 style='text-align: center; color: #9C021B;'><hr></h4>", unsafe_allow_html=True)
 
-st.markdown("<h4 style='text-align: center; color: #E07811;'>You can check latest Status of IPL 2021 along with  stats of top Players</h4>", unsafe_allow_html=True)
+
+
+
+
+from bs4 import BeautifulSoup
+URL = 'https://www.iplt20.com/'
+page = requests.get(URL)
+soup = BeautifulSoup(page.content, 'html.parser')
+job_elems = soup.find_all('section', class_='homePageTakeover')
+for job_elem in job_elems:
+    title_elem = job_elem.find('h1', class_='hpto-header__title')
+    match_summary = job_elem.find('div', class_='matchSummary')
+    score = job_elem.find('li', class_='homePageTakeover__button homePageTakeover__button--data-only')
+    if None in (title_elem, match_summary):
+        continue
+    split = title_elem.text.split()
+#     print(title_elem.text.strip())
+    st.write("Next/Ongoing",' '.join(split))
+    st.markdown("&nbsp")
+    st.write(match_summary.text.strip())
+    # st.write("<h1 style='text-align: center; color: #F34600;'>match_summary.text.strip()<strong></strong></h1>", unsafe_allow_html=True)
+
+#     print('\n')
+
+    # if (score.text == '\n\n                    Scorecard\n                \n'):
+        # st.markdown("      Match not Started Yet")
+
+        # st.markdown("<h4 style='text-align: center; color: #E07811;'>Match not Started Yet</h4>", unsafe_allow_html=True)
+
+    # else:
+        # st.write(score.text.strip())
+#     print(countdown.text.strip())
+#     print(time.text.strip())
+#     print(score.text.strip())
+#     score = string(score)
+# st.markdown("&nbsp")
+st.markdown("_________________________________________________________________________________")
+
+
+
+
+
+
+
+
+st.markdown("<h4 style='text-align: center; color: #E07811;'>Check latest Status of IPL 2021 along with  stats of top Players</h4>", unsafe_allow_html=True)
 
 # st.markdown("You can check latest Status of **IPL 2020** along with  stats of top Players 🏏")
 st.markdown("&nbsp")
@@ -508,3 +553,7 @@ st.image(path, width = 300)
 # <iframe src="https://giphy.com/embed/rS9tqucvXWwuY" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/bye-rS9tqucvXWwuY">via GIPHY</a></p>
 # <img src="/home/dheeraj/my_projects/my_project_env/practice/IPL2020_Dashnoard/bye.png" alt="Italian Trulli">
 # st.markdown("![Alt Text](https://media.giphy.com/media/rS9tqucvXWwuY/giphy.gif)")
+
+
+st.markdown("_Created by @dheeraj_")
+
