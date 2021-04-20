@@ -413,7 +413,7 @@ if st.sidebar.checkbox("Show IPL 2021 scheduled matches", False):
     st.markdown("<h4 style='text-align: center;'><i>You can view in fullscreen for better visibility of Schedule</i></h4>", unsafe_allow_html=True)
 
     # st.markdown("You can expand the view for better visibility of Time table")
-    image = pd.read_csv("ipl_schedule.csv")
+    image = pd.read_csv('ipl_schedule.csv')
     # st.image(image, use_column_width=True)
     imag= image[['Match No', 'Date', 'Match Center', 'Time', 'Venue']]
     # imag = imag.style.hide_index()
@@ -437,7 +437,7 @@ favourite_team = st.sidebar.selectbox("Which's your favourite team?", ['--Select
 
 if favourite_team == 'Chennai Super Kings (CSK)':
     # @st.cache(persist=True)
-    csk = pd.read_csv("csk_schedule.csv")
+    csk = pd.read_csv('csk_schedule.csv')
     # st.image(image, use_column_width=True)
     csk= csk[['Match No', 'Match Center','Date','Day',  'Time (IST)', 'Stadium', 'City']]
     # imag = imag.style.hide_index()
@@ -456,7 +456,7 @@ if favourite_team == 'Chennai Super Kings (CSK)':
 
 #
 elif favourite_team == 'Mumbai Indians (MI)':
-    mi = pd.read_csv("mi_schedule.csv")
+    mi = pd.read_csv('mi_schedule.csv')
     mi= mi[['Match No', 'Match Center','Date','Day',  'Time (IST)', 'Stadium', 'City']]
     st.markdown("&nbsp")
     # st.markdown("&nbsp")
@@ -468,7 +468,7 @@ elif favourite_team == 'Mumbai Indians (MI)':
 
 
 elif favourite_team == 'Royal Challengers Benglore (RCB)':
-    rcb = pd.read_csv("rcb_schedule.csv")
+    rcb = pd.read_csv('rcb_schedule.csv')
     rcb= rcb[['Match No', 'Match Center','Date','Day',  'Time (IST)', 'Stadium', 'City']]
     st.markdown("&nbsp")
     # st.markdown("&nbsp")
@@ -480,7 +480,7 @@ elif favourite_team == 'Royal Challengers Benglore (RCB)':
 
 
 elif favourite_team == 'Sunrisers Hyderabad (SRH)':
-    srh = pd.read_csv("srh_schedule.csv")
+    srh = pd.read_csv('srh_schedule.csv')
     srh= srh[['Match No', 'Match Center','Date','Day',  'Time (IST)', 'Stadium', 'City']]
     st.markdown("&nbsp")
     # st.markdown("&nbsp")
@@ -492,7 +492,7 @@ elif favourite_team == 'Sunrisers Hyderabad (SRH)':
 
 
 elif favourite_team == 'Delhi Capitals (DC)':
-    dc = pd.read_csv("dc_schedule.csv")
+    dc = pd.read_csv('dc_schedule.csv')
     dc= dc[['Match No', 'Match Center','Date','Day',  'Time (IST)', 'Stadium', 'City']]
     st.markdown("&nbsp")
     # st.markdown("&nbsp")
@@ -514,7 +514,7 @@ elif favourite_team == 'Kings Eleven Punjab (KXIP)':
 
 
 elif favourite_team == 'Rajasthan Royals (RR)':
-    rr = pd.read_csv("rajasthan_schedule.csv")
+    rr = pd.read_csv('rajasthan_schedule.csv')
     rr= rr[['Match No', 'Match Center','Date','Day',  'Time (IST)', 'Stadium', 'City']]
     st.markdown("&nbsp")
     # st.markdown("&nbsp")
@@ -525,7 +525,7 @@ elif favourite_team == 'Rajasthan Royals (RR)':
 
 
 elif favourite_team == 'Kolkata knight Riders (KKR)':
-    kkr = pd.read_csv("kkr_schedule.csv")
+    kkr = pd.read_csv('kkr_schedule.csv')
     kkr= kkr[['Match No', 'Match Center','Date','Day',  'Time (IST)', 'Stadium', 'City']]
     st.markdown("&nbsp")
     # st.markdown("&nbsp")
