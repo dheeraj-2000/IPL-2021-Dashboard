@@ -40,22 +40,22 @@ st.markdown("___________________________________________________________________
 
 
 
-from bs4 import BeautifulSoup
-URL = 'https://www.iplt20.com/'
-page = requests.get(URL)
-soup = BeautifulSoup(page.content, 'html.parser')
-job_elems = soup.find_all('section', class_='homePageTakeover')
-for job_elem in job_elems:
-    title_elem = job_elem.find('h1', class_='hpto-header__title')
-    match_summary = job_elem.find('div', class_='matchSummary')
-    score = job_elem.find('li', class_='homePageTakeover__button homePageTakeover__button--data-only')
-    if None in (title_elem, match_summary):
-        continue
-    split = title_elem.text.split()
-#     print(title_elem.text.strip())
-    st.write("Next/Ongoing",' '.join(split))
-    st.markdown("&nbsp")
-    st.write(match_summary.text.strip())
+# from bs4 import BeautifulSoup
+# URL = 
+# page = requests.get(URL)
+# soup = BeautifulSoup(page.content, 'html.parser')
+# job_elems = soup.find_all('section', class_='homePageTakeover')
+# for job_elem in job_elems:
+#     title_elem = job_elem.find('h1', class_='hpto-header__title')
+#     match_summary = job_elem.find('div', class_='matchSummary')
+#     score = job_elem.find('li', class_='homePageTakeover__button homePageTakeover__button--data-only')
+#     if None in (title_elem, match_summary):
+#         continue
+#     split = title_elem.text.split()
+# #     print(title_elem.text.strip())
+#     st.write("Next/Ongoing",' '.join(split))
+#     st.markdown("&nbsp")
+#     st.write(match_summary.text.strip())
     # st.write("<h1 style='text-align: center; color: #F34600;'>match_summary.text.strip()<strong></strong></h1>", unsafe_allow_html=True)
 
 #     print('\n')
@@ -72,7 +72,7 @@ for job_elem in job_elems:
 #     print(score.text.strip())
 #     score = string(score)
 # st.markdown("&nbsp")
-st.markdown("_________________________________________________________________________________")
+# st.markdown("_________________________________________________________________________________")
 
 
 
