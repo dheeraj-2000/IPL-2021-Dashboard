@@ -1,0 +1,61 @@
+Match No,Date,Match Center,Time,Venue
+1,"Apr 09 , Fri",MI Vs RCB,7:30 PM,M. A. Chidambaram Chepauk Stadium – Chennai
+2,"Apr 10 , Sat",CSK Vs DC,7:30 PM,Wankhede Stadium – Mumabi
+3,"Apr 11 , Sun",SRH Vs KKR,7:30 PM,M. A. Chidambaram Chepauk Stadium – Chennai
+4,"Apr 12 , Mon",RR Vs PBKS,7:30 PM,Wankhede Stadium – Mumabi
+5,"Apr 13 , Tue",KKR Vs MI,7:30 PM,M. A. Chidambaram Chepauk Stadium – Chennai
+6,"Apr 14 , Wed",SRH Vs RCB,7:30 PM,M. A. Chidambaram Chepauk Stadium – Chennai
+7,"Apr 15 , Thu",RR Vs DC,7:30 PM,Wankhede Stadium – Mumabi
+8,"Apr 16 , Fri",PBKS Vs CSK,7:30 PM,Wankhede Stadium – Mumabi
+9,"Apr 17 , Sat",MI Vs SRH,7:30 PM,M. A. Chidambaram Chepauk Stadium – Chennai
+10,"Apr 18 , Sun",RCB Vs KKR,3:30 PM,M. A. Chidambaram Chepauk Stadium – Chennai
+11,"Apr 18 , Sun",DC Vs PBKS,7:30 PM,Wankhede Stadium – Mumabi
+12,"Apr 19 , Mon",CSK Vs RR,7:30 PM,Wankhede Stadium – Mumabi
+13,"Apr 20 , Tue",DC Vs MI,7:30 PM,M. A. Chidambaram Chepauk Stadium – Chennai
+14,"Apr 21 , Wed",PBKS Vs SRH,3:30 PM,M. A. Chidambaram Chepauk Stadium – Chennai
+15,"Apr 21 , Wed",KKR Vs CSK,7:30 PM,Wankhede Stadium – Mumabi
+16,"Apr 22 , Thu",RCB Vs RR,7:30 PM,Wankhede Stadium – Mumabi
+17,"Apr 23 , Fri",PBKS Vs MI,7:30 PM,M. A. Chidambaram Chepauk Stadium – Chennai
+18,"Apr 24 , Sat",RR Vs KKR,7:30 PM,Wankhede Stadium – Mumabi
+19,"Apr 25 , Sun",CSK Vs RCB,3:30 PM,Wankhede Stadium – Mumabi
+20,"Apr 25 , Sun",SRH Vs DC,7:30 PM,M.A.Chidambaram Chepauk Stadium – Chennai
+21,"Apr 26 , Mon",PBKS Vs KKR,7:30 PM,Narendra Modi Stadium – Ahmedabad
+22,"Apr 27 , Tue",DC Vs RCB,7:30 PM,Narendra Modi Stadium – Ahmedabad
+23,"Apr 28 , Wed",CSK Vs SRH,7:30 PM,Feroz Shah Kotla Stadium – Delhi
+24,"Apr 29 , Thu",MI Vs RR,3:30 PM,Feroz Shah Kotla Stadium – Delhi
+25,"Apr 29 , Thu",DC Vs KKR,7:30 PM,Narendra Modi Stadium – Ahmedabad
+26,"May 30 , Sun",PBKS Vs RCB,7:30 PM,Narendra Modi Stadium – Ahmedabad
+27,"May 01 , Sat",MI Vs CSK,7:30 PM,Feroz Shah Kotla Stadium – Delhi
+28,"May 02 , Sun",RR Vs SRH,3:30 PM,Feroz Shah Kotla Stadium – Delhi
+29,"May 02 , Sun",PBKS Vs DC,7:30 PM,Narendra Modi Stadium – Ahmedabad
+30,"May 03 , Mon",KKR Vs RCB,7:30 PM,Narendra Modi Stadium – Ahmedabad
+31,"May 04 , Tue",SRH Vs MI,7:30 PM,Feroz Shah Kotla Stadium – Delhi
+32,"May 05 , Wed",RR Vs CSK,7:30 PM,Feroz Shah Kotla Stadium – Delhi
+33,"May 06 , Thu",RCB Vs PBKS,7:30 PM,Narendra Modi Stadium – Ahmedabad
+34,"May 07 , Fri",SRH Vs CSK,7:30 PM,Feroz Shah Kotla Stadium – Delhi
+35,"May 08 , Sat",KKR Vs DC,3:30 PM,Narendra Modi Stadium – Ahmedabad
+36,"May 08 , Sat",RR Vs MI,7:30 PM,Feroz Shah Kotla Stadium – Delhi
+37,"May 09 , Sun",CSK Vs PBKS,3:30 PM,M.Chinnaswamy Stadium – Bangalore
+38,"May 09 , Sun",RCB Vs SRH,7:30 PM,Eden Gardens Stadium – Kolkata
+39,"May 10 , Mon",MI Vs KKR,7:30 PM,M.Chinnaswamy Stadium – Bangalore
+40,"May 11 , Tue",DC Vs RR,7:30 PM,Eden Gardens Stadium – Kolkata
+41,"May 12 , Wed",CSK Vs KKR,7:30 PM,M.Chinnaswamy Stadium – Bangalore
+42,"May 13 , Thu",MI Vs PBKS,3:30 PM,M.Chinnaswamy Stadium – Bangalore
+43,"May 13 , Thu",SRH Vs RR,7:30 PM,Eden Gardens Stadium – Kolkata
+44,"May 14 , Fri",RCB Vs DC,7:30 PM,Eden Gardens Stadium – Kolkata
+45,"May 15 , Sat",KKR Vs PBKS,7:30 PM,M.Chinnaswamy Stadium – Bangalore
+46,"May 16 , Sun",RR Vs RCB,3:30 PM,Eden Gardens Stadium – Kolkata
+47,"May 16 , Sun",CSK Vs MI,7:30 PM,M.Chinnaswamy Stadium – Bangalore
+48,"May 17 , Mon",DC Vs SRH,7:30 PM,Eden Gardens Stadium – Kolkata
+49,"May 18 , Tue",KKR Vs RR,7:30 PM,M.Chinnaswamy Stadium – Bangalore
+50,"May 19 , Wed",SRH Vs PBKS,7:30 PM,M.Chinnaswamy Stadium – Bangalore
+51,"May 20 , Thu",RCB Vs MI,7:30 PM,Eden Gardens Stadium – Kolkata
+52,"May 21 , Fri",KKR Vs SRH,3:30 PM,M.Chinnaswamy Stadium – Bangalore
+53,"May 21 , Fri",DC Vs CSK,7:30 PM,Eden Gardens Stadium – Kolkata
+54,"May 22 , Sat",PBKS Vs RR,7:30 PM,M.Chinnaswamy Stadium – Bangalore
+55,"May 23 , Sun",MI Vs DC,3:30 PM,Eden Gardens Stadium – Kolkata
+56,"May 23 , Sun",RCB Vs CSK,7:30 PM,Eden Gardens Stadium – Kolkata
+57,"May 25 , Tue",Qualifier-1,7:30 PM,Narendra Modi Stadium- Ahmedabad
+58,"May 26 , Wed",Eliminator,7:30 PM,Narendra Modi Stadium- Ahmedabad
+59,"May 28 , Fri",Qualifier-2,7:30 PM,Narendra Modi Stadium- Ahmedabad
+60,"May 30 , Sun",FINAL,7:30 PM,Narendra Modi Stadium- Ahmedabad
